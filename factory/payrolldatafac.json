@@ -1,0 +1,15 @@
+{
+	"name": "payrolldatafac",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ee94e5b3-9757-4c3c-ae6e-b8cbe9d34666",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}

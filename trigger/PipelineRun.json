@@ -1,0 +1,30 @@
+{
+	"name": "PipelineRun",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 12,
+				"startTime": "2026-11-11T12:57:00",
+				"endTime": "2026-11-12T12:57:00",
+				"timeZone": "India Standard Time",
+				"schedule": {
+					"monthDays": [
+						-1
+					]
+				}
+			}
+		}
+	}
+}
